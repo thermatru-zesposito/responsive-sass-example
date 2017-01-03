@@ -1,6 +1,6 @@
 module.exports = {
     main: {
-        files: [],
-        tasks: []
+        files: ['source/**/*'],
+        tasks: ['sass:main']
     }
 }

@@ -1,2 +1,7 @@
 @import 'imports/all',
-		'modules/all'
+		'modules/all';
+
+
+ul {
+	@extend %structural-list;
+}

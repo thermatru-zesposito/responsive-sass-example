@@ -1,4 +1,9 @@
 @charset "UTF-8";
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -41,12 +46,6 @@ figure > img {
 
 figcaption {
   font-size: 0.86em; }
-
-/**
-    * Lists
-    */
-ul, ol {
-  margin-left: 1em; }
 
 li {
   margin-bottom: 1em; }
