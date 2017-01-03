@@ -1,4 +1,9 @@
 @charset "UTF-8";
+ul:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 ul {
   list-style: none;
   margin: 0;
@@ -81,3 +86,19 @@ a:hover {
 
 dfn {
   font-style: normal; }
+
+figcaption {
+  text-align: center; }
+
+@media (min-width: 34.375em) {
+  li {
+    width: 49%;
+    min-height: 300px;
+    margin-right: 1%;
+    float: left; } }
+@media (min-width: 56.25em) {
+  li {
+    width: 32%;
+    margin-right: 2%; }
+  li:nth-child(3n) {
+    margin-right: 0; } }

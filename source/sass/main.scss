@@ -4,4 +4,21 @@
 
 ul {
 	@extend %structural-list;
+	@extend %group;
+}
+
+figcaption {
+	text-align:center;
+}
+
+li {
+	@include breakpoint(550px){
+		width:49%;
+		min-height:300px;
+		margin-right:1%;
+		float:left;
+	}
+	@include breakpoint(900px){
+		@include percentage-width-with-margin-between(3,2%);
+	}
 }
