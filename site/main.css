@@ -1,0 +1,84 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+  color: #333;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px; }
+
+/**
+    * Reset some basic elements
+    */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+    * Set `margin-bottom` to maintain vertical rhythm
+    */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure {
+  margin-bottom: 1em; }
+
+/**
+    * Images
+    */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/**
+    * Figures
+    */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 0.86em; }
+
+/**
+    * Lists
+    */
+ul, ol {
+  margin-left: 1em; }
+
+li {
+  margin-bottom: 1em; }
+li > ul, li > ol {
+  margin-bottom: 0; }
+
+q {
+  quotes: "“" "”" "‘" "’"; }
+
+q:before {
+  content: open-quote; }
+
+q:after {
+  content: close-quote; }
+
+/**
+    * Headings
+    */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+/**
+    * Links
+    */
+a {
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  color: #4d4d4d; }
+a:hover {
+  color: #333; }
+
+dfn {
+  font-style: normal; }

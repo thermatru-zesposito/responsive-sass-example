@@ -1,0 +1,17 @@
+{
+  "name": "responsive sass example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.1.1",
+    "ze-sass-base": null
+  }
+}
